@@ -1,0 +1,61 @@
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f4f4f4;
+}
+
+/*textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: rgba(126, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  border: 1px #ddd solid; border-radius: 0;
+  box-shadow: none;
+  outline: 0 none;
+}*/
+
+.field, .field:focus{
+  border: 1px #ddd solid; border-radius: 0;
+  box-shadow: none;
+  outline: 0 none; padding: 7px 14px; margin-bottom: 15px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 420px;
+  padding: 15px 30px;
+  margin: 0 auto;
+  background-color: #fff; border-radius: 4px;
+  /*border: 1px #ddd solid;*/
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+
